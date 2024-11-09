@@ -3,7 +3,7 @@ const Tour = require("./tourLib.js");
 const getAllTours = (req, res) => {
   res.json(Tour.getAll());
 };
-
+ 
 const createTour = (req, res) => {
   const { name, info, image, price } = req.body;
   const newTour = Tour.addOne(name, info, image, price);

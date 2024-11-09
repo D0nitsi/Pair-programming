@@ -7,7 +7,7 @@
   "price": "1,995"
 }
 */
-
+ 
 let tourArray = [];
 let nextId = 1;
 
