@@ -13,7 +13,6 @@ const {
 app.use(express.json());
 
 // ROUTES
-
 // GET /tours
 app.get("/tours", getAllTours);
 
